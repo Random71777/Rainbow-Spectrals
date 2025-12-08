@@ -71,5 +71,13 @@ TexturePack{
         'rspa_tags',
         'rspa_deck',
         'rspa_joker'
+    },
+	 loc_txt = {
+        name = 'Prisma Spectrals',
+        text = {
+            'Reskins the Spectrals',
+            'to be Prismatic',
+            'Author: Random71777'
+        }
     }
 }
