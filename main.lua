@@ -90,6 +90,62 @@ AltTexture({
     original_sheet = true
 })
 
+table.insert(Malverk.keys.Spectral, 'c_abn_spectrals')
+
+AltTexture({
+    key = 'spectrals_abn',
+    set = 'Spectral',
+    path = 'specrain-spectrals.png',
+    keys = {
+        'c_abn_flipside',
+        'c_abn_abyss',
+        'c_abn_body',
+        'c_abn_mind',
+        'c_abn_deja_vecu',
+        'c_abn_deja_reve',
+        'c_abn_entendu',
+        'c_abn_paramenal',
+        'c_abn_sapience',
+        'c_abn_jamais_vu',
+        'c_abn_presque_vu',
+        'c_abn_super_id',
+        'c_abn_spiral',
+        'c_abn_door',
+        'c_abn_silver',
+        'c_abn_copper',
+        'c_abn_impure',
+        'c_abn_instrument',
+        'c_abn_make',
+        'c_abn_transform',
+        'c_abn_exile',
+        'c_abn_distortion',
+        'c_abn_ascend',
+},
+    original_sheet = true
+})
+
+table.insert(Malverk.keys.Spectral, 'c_aij_consumables')
+
+AltTexture({
+    key = 'spectrals_aij',
+    set = 'Spectral',
+    path = 'specrain-consumables.png',
+    keys = {
+        'c_aij_white_hole',
+        'c_aij_palmistry',
+        'c_aij_trefle',
+        'c_aij_shade',
+        'c_aij_maw',
+        'c_aij_reshape',
+        'c_aij_mirth',
+        'c_aij_pulsar',
+        'c_aij_gravastar',
+        'c_aij_gegenschein'
+},
+    original_sheet = true
+})
+
+
 TexturePack{
     key = 'specrain',
     textures = {
@@ -98,7 +154,9 @@ TexturePack{
         'rspa_tags',
         'rspa_deck',
         'rspa_joker',
-        'rspa_spectrals_cry'
+        'rspa_spectrals_cry',
+        'rspa_spectrals_abn',
+        'rspa_spectrals_aij'
     },
 	 loc_txt = {
         name = 'Prisma Spectrals',
